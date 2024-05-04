@@ -1,19 +1,215 @@
-.home-banner-slider{
+/*----------  General CSS  ----------*/
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    vertical-align: baseline;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+    scroll-behavior: auto !important;
+}
+
+body {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #fff;
+    background-color: #143258;
     position: relative;
 }
 
-.home-banner-slider img{
-    width: 100%;
-}
-.slider-content .circle-img{
-    position: absolute;
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 
-.slider-content .slider-text-wrap{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+u {
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+b,
+strong {
+    font-weight: 700 !important;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.4s ease-in-out;
+    -webkit-transition: color 0.4s ease-in-out;
+    -moz-transition: color 0.4s ease-in-out;
+    -ms-transition: color 0.4s ease-in-out;
+    -o-transition: color 0.4s ease-in-out;
+}
+
+a:hover {
+    color: #f0c401;
+    text-decoration: none;
+    outline: none !important;
+}
+
+a:focus {
+    text-decoration: none;
+    outline: none !important;
+}
+
+*:focus {
+    outline: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+/*----------  Common CSS  ----------*/
+.wrapper {
+    display: block;
+    overflow: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
+    position: relative;
+}
+
+.body-fixed {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 30px;
+    position: relative;
+}
+
+.common-sec {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* button */
+
+.btn {
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    background-color: #137ac6 !important;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 0;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    position: relative;
+    height: fit-content;
+    transition: .4s all ease-in-out;
+}
+
+.btn.btn-yellow {
+    background-color: #f0c401 !important;
+    color: #fff;
+}
+
+.btn.btn-violet {
+    background-color: #966FD6 !important;
+    color: #fff;
+}
+
+/* button */
+
+.sec-head {
+    width: 100%;
+    display: block;
+    margin-bottom: 35px;
+}
+
+:is(h1, h2, h3, h4, h5, h6),
+.sec-title,
+.sec-sub-title {
+    font-family: "Poppins", sans-serif;
+}
+
+.sec-title {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #fff;
+    display: block;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.sec-md-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.cms-con p {
+    line-height: 1.6;
+}
+
+/* ------ General CSS -------- */
