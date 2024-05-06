@@ -1,63 +1,1288 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Klothhub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
-    <!-- bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-<!-- slick slider  -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/animate.compat.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <title>Kloth Hub</title>
 </head>
-<body>
-  <!-- home banner slider start  -->
-  <div class="home-banner-slider">
-    <div class="cover-background overflow-hidden" style="width: 1899px;" role="group" ><picture>
-      <source media="(max-width:767px)" srcset="https://hongotheme.myshopify.com/cdn/shop/files/demo-cloth-fashion-slider-mobile-01.jpg?v=1668405270"><img src="https://hongotheme.myshopify.com/cdn/shop/files/demo-cloth-slider-bg-01_e4696fc2-1742-4caf-958d-bd12161b95a8.jpg?v=1665980726" alt="" width="auto" height="auto" loading="lazy"></picture><div class="slider-content"><div class="container h-100"><div class="row h-100 justify-content-center align-items-center">
-          <div class="col-md-10 col-lg-9 slider-typography-wrap position-relative"><img class="circle-img" src="https://hongotheme.myshopify.com/cdn/shop/files/demo-cloth-slider-circle_1b131009-9155-42d6-9e67-64828816f2de.png?v=1665980743" alt="" width="auto" height="auto"><div class="slider-text-wrap d-flex align-items-center">
-              <div class="slider-text-inner slide-animation fadeInUp text-center"><div class="overflow-hidden"><div class="title alt-font">UNIQUE <span>FASHION</span></div></div><div class="overflow-hidden"><div class="sub-title alt-font">The big summer sale upto <span>60% off</span></div></div><div class="overflow-hidden"><a class="alt-font d-inline-flex justify-content-center align-items-center btn btn-black btn-large" href="/collections/women-s-collection" target="_self" style="border-radius: 30px; border-width: 2px;" aria-label="link">
-<span class="order-1">SHOP COLLECTION</span></a></div></div>
+
+<body class="home">
+  <div class="wrapper">
+    <div class="main-content">
+      <section class="hero-banner-sec">
+        <div class="hero-banner-sec-slider">
+          <div class="hero-banner-sec-wrap">
+            <div class="hero-banner-img">
+              <img src="img/home-banner.jpg" alt="">
+            </div>
+            <div class="hero-banner-content-main">
+              <div class="container">
+                <div class="hero-banner-content-wrap">
+                  <div class="banner-content-img">
+                    <img src="img/banner-circle.jpg" alt="">
+                  </div>
+                  <div class="hero-banner-content">
+                    <div class="banner-title overflow-hidden">
+                      <h2 class="slideanimation">Summer <span>Special</span></h2>
+                    </div>
+                    <div class="banner-sub-title overflow-hidden">
+                      <p class="slideanimation">The designer boutique upto <span class="banner-offer-highlight">40%
+                          off</span>
+                      </p>
+                    </div>
+                    <div class="banner-btn overflow-hidden">
+                      <a href="#" class="btn slideanimation">Shop Collection</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div></div></div>
-    </div>
-    <div class="cover-background overflow-hidden" style="width: 1899px;"><picture>
-      <source media="(max-width:767px)" srcset="https://hongotheme.myshopify.com/cdn/shop/files/demo-cloth-fashion-slider-mobile-02.jpg?v=1668405283"><img src="https://hongotheme.myshopify.com/cdn/shop/files/demo-cloth-slider-bg-02.jpg?v=1666065924" alt="" width="auto" height="auto" loading="lazy"></picture><div class="slider-content"><div class="container h-100"><div class="row h-100 justify-content-center align-items-center">
-          <div class="col-md-10 col-lg-9 slider-typography-wrap position-relative"><img class="circle-img" src="https://hongotheme.myshopify.com/cdn/shop/files/demo-cloth-slider-circle_1b131009-9155-42d6-9e67-64828816f2de.png?v=1665980743" alt="" width="auto" height="auto"><div class="slider-text-wrap d-flex align-items-center">
-              <div class="slider-text-inner slide-animation fadeInUp text-center"><div class="overflow-hidden"><div class="title alt-font">TRENDY <span>DESIGNS</span></div></div><div class="overflow-hidden"><div class="sub-title alt-font">Trendy collection flat  <span>50% off</span></div></div><div class="overflow-hidden"><a class="alt-font d-inline-flex justify-content-center align-items-center btn btn-black btn-large" href="/collections/men-s-collection" target="_self" style="border-radius: 30px; border-width: 2px;" aria-label="link">
-<span class="order-1">SHOP COLLECTION</span></a></div></div>
+          <div class="hero-banner-sec-wrap">
+            <div class="hero-banner-img">
+              <img src="img/home-banner.jpg" alt="">
+            </div>
+            <div class="hero-banner-content-main">
+              <div class="container">
+                <div class="hero-banner-content-wrap">
+                  <div class="banner-content-img">
+                    <img src="img/banner-circle.jpg" alt="">
+                  </div>
+                  <div class="hero-banner-content">
+                    <div class="banner-title overflow-hidden">
+                      <h2 class="slideanimation">Unique <span>Fashion</span></h2>
+                    </div>
+                    <div class="banner-sub-title overflow-hidden">
+                      <p class="slideanimation">The big summer sale upto <span class="banner-offer-highlight">60%
+                          off</span>
+                      </p>
+                    </div>
+                    <div class="banner-btn overflow-hidden">
+                      <a href="#" class="btn slideanimation">Shop Collection</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div></div></div>
-  </div>
-  <div class="cover-background overflow-hidden" style="width: 1899px;"><picture>
-    <source media="(max-width:767px)" srcset="https://hongotheme.myshopify.com/cdn/shop/files/demo-cloth-fashion-slider-mobile-03.jpg?v=1668405296"><img src="https://hongotheme.myshopify.com/cdn/shop/files/demo-cloth-slider-bg-03.jpg?v=1666066067" alt="" width="auto" height="auto" loading="lazy"></picture><div class="slider-content"><div class="container h-100"><div class="row h-100 justify-content-center align-items-center">
-        <div class="col-md-10 col-lg-9 slider-typography-wrap position-relative"><img class="circle-img" src="https://hongotheme.myshopify.com/cdn/shop/files/demo-cloth-slider-circle_1b131009-9155-42d6-9e67-64828816f2de.png?v=1665980743" alt="" width="auto" height="auto"><div class="slider-text-wrap d-flex align-items-center">
-            <div class="slider-text-inner slide-animation fadeInUp text-center"><div class="overflow-hidden"><div class="title alt-font">SUMMER <span>SPECIAL</span></div></div><div class="overflow-hidden"><div class="sub-title alt-font">The designer boutique upto <span>40% off</span></div></div><div class="overflow-hidden"><a class="alt-font d-inline-flex justify-content-center align-items-center btn btn-black btn-large" href="/collections/women-s-collection" target="_self" style="border-radius: 30px; border-width: 2px;" aria-label="link">
-<span class="order-1">SHOP COLLECTION</span></a></div></div>
+          <div class="hero-banner-sec-wrap">
+            <div class="hero-banner-img">
+              <img src="img/home-banner.jpg" alt="">
+            </div>
+            <div class="hero-banner-content-main">
+              <div class="container">
+                <div class="hero-banner-content-wrap">
+                  <div class="banner-content-img">
+                    <img src="img/banner-circle.jpg" alt="">
+                  </div>
+                  <div class="hero-banner-content">
+                    <div class="banner-title overflow-hidden">
+                      <h2 class="slideanimation">Trendy <span>Designs</span></h2>
+                    </div>
+                    <div class="banner-sub-title overflow-hidden">
+                      <p class="slideanimation">Trendy collection flat <span class="banner-offer-highlight">50%
+                          off</span>
+                      </p>
+                    </div>
+                    <div class="banner-btn overflow-hidden">
+                      <a href="#" class="btn slideanimation">Shop Collection</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div></div></div>
-</div>
+      </section>
+      <section class="decor-collection-sec common-sec">
+        <div class="container">
+          <div class="decor-collection-wrap">
+            <div class="sec-head">
+              <h3 class="sec-md-title">SHOP BY CATEGORIES</h3>
+              <h2 class="sec-title">Decor collection</h2>
+            </div>
+            <div class="decor-collection-cards-main">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5">
+                <div class="col collection-item">
+                  <div class="decor-collection-cards-card">
+                    <a href="#" class="decor-collection-card-wrap">
+                      <div class="decor-collection-card-img">
+                        <img src="img/decor-collection-img-01.jpg" alt="">
+                      </div>
+                      <div class="decor-collection-card-con">
+                        <div class="decor-collection-card-con-left">
+                          <p>Living room</p>
+                        </div>
+                        <div class="decor-collection-card-con-right">
+                          <p class="items">12 items</p>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col collection-item">
+                  <div class="decor-collection-cards-card">
+                    <a href="#" class="decor-collection-card-wrap">
+                      <div class="decor-collection-card-img">
+                        <img src="img/decor-collection-img-02.jpg" alt="">
+                      </div>
+                      <div class="decor-collection-card-con">
+                        <div class="decor-collection-card-con-left">
+                          <p>Modern painting</p>
+                        </div>
+                        <div class="decor-collection-card-con-right">
+                          <p class="items">12 items</p>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col collection-item">
+                  <div class="decor-collection-cards-card">
+                    <a href="#" class="decor-collection-card-wrap">
+                      <div class="decor-collection-card-img">
+                        <img src="img/decor-collection-img-03.jpg" alt="">
+                      </div>
+                      <div class="decor-collection-card-con">
+                        <div class="decor-collection-card-con-left">
+                          <p>Clay pots</p>
+                        </div>
+                        <div class="decor-collection-card-con-right">
+                          <p class="items">15 items</p>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col collection-item">
+                  <div class="decor-collection-cards-card">
+                    <a href="#" class="decor-collection-card-wrap">
+                      <div class="decor-collection-card-img">
+                        <img src="img/decor-collection-img-04.jpg" alt="">
+                      </div>
+                      <div class="decor-collection-card-con">
+                        <div class="decor-collection-card-con-left">
+                          <p>Classic table</p>
+                        </div>
+                        <div class="decor-collection-card-con-right">
+                          <p class="items">12 items</p>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col collection-item">
+                  <div class="decor-collection-cards-card">
+                    <a href="#" class="decor-collection-card-wrap">
+                      <div class="decor-collection-card-img">
+                        <img src="img/decor-collection-img-05.jpg" alt="">
+                      </div>
+                      <div class="decor-collection-card-con">
+                        <div class="decor-collection-card-con-left">
+                          <p>Home office</p>
+                        </div>
+                        <div class="decor-collection-card-con-right">
+                          <p class="items">12 items</p>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categories-product-sec common-sec pt-0">
+        <div class="categories-product-sec-wrap">
+          <div class="container">
+            <div class="sec-head">
+              <h2 class="sec-title">Featured products</h2>
+              <h3 class="sec-md-title">Follow the most popular trends</h3>
+            </div>
+            <div class="categories-product-cards">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5">
+                <div class="col">
+                  <div class="categories-product-card">
+                    <div class="categories-product-card-img-box">
+                      <div class="product-card-img">
+                        <a href="#">
+                          <img src="img/product-01.jpg" alt="" class="main-img">
+                          <img src="img/product-01-back.jpg" alt="" class="alternate-img">
+                        </a>
+                      </div>
+                      <div class="product-card-countdown">
+                        <div class="countdown" data-date="2024-05-20" data-time="05:40:25">
+                          <div class="day"><span class="num"></span><span class="word">days</span></div>
+                          <div class="hour"><span class="num"></span><span class="word">hours</span></div>
+                          <div class="min"><span class="num"></span><span class="word">mins</span></div>
+                          <div class="sec"><span class="num"></span><span class="word">secs</span></div>
+                        </div>
+                      </div>
+                      <div class="product-quick-btn">
+                        <a href="#" class="product-quick-cart">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                          <span>select options</span>
+                        </a>
+                        <a href="#" class="product-quick-view">
+                          <i class="fa-regular fa-eye"></i>
+                          <span>Quick View</span>
+                        </a>
+                      </div>
+                      <div class="product-actions">
+                        <a href="#" class="product-whishlist">
+                          <span>Add to whishlist</span>
+                          <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#" class="product-compare">
+                          <span>Add to compare</span>
+                          <i class="fa-solid fa-layer-group"></i>
+                        </a>
+                      </div>
+                      <div class="product-sale-badge">
+                        <span>sale</span>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-content">
+                      <div class="product-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="product-title">
+                        <a href="#">Abstract Shirt</a>
+                      </div>
+                      <div class="product-price">
+                        <div class="product-sale-price">
+                          <span class="regular-price">Rs. 2,200.00</span>
+                          <span class="sale-price">Rs. 1,500.00</span>
+                        </div>
+                        <div class="product-regular-price">
+                          <span>Rs. 1,500.00</span>
+                        </div>
+                      </div>
+                      <div class="product-color-swatches">
+                        <button class="color-swatches-btn selected">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-hover"></div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="categories-product-card">
+                    <div class="categories-product-card-img-box">
+                      <div class="product-card-img">
+                        <a href="#">
+                          <img src="img/product-02.jpg" alt="" class="main-img">
+                          <img src="img/product-02-back.jpg" alt="" class="alternate-img">
+                        </a>
+                      </div>
+                      <div class="product-quick-btn">
+                        <a href="#" class="product-quick-cart">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                          <span>select options</span>
+                        </a>
+                        <a href="#" class="product-quick-view">
+                          <i class="fa-regular fa-eye"></i>
+                          <span>Quick View</span>
+                        </a>
+                      </div>
+                      <div class="product-actions">
+                        <a href="#" class="product-whishlist">
+                          <span>Add to whishlist</span>
+                          <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#" class="product-compare">
+                          <span>Add to compare</span>
+                          <i class="fa-solid fa-layer-group"></i>
+                        </a>
+                      </div>
+                      <div class="product-sale-badge">
+                        <span>sale</span>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-content">
+                      <div class="product-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="product-title">
+                        <a href="#">Abstract Shirt</a>
+                      </div>
+                      <div class="product-price">
+                        <div class="product-sale-price">
+                          <span class="regular-price">Rs. 2,200.00</span>
+                          <span class="sale-price">Rs. 1,500.00</span>
+                        </div>
+                        <div class="product-regular-price">
+                          <span>Rs. 1,500.00</span>
+                        </div>
+                      </div>
+                      <div class="product-color-swatches">
+                        <button class="color-swatches-btn selected">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-hover"></div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="categories-product-card">
+                    <div class="categories-product-card-img-box">
+                      <div class="product-card-img">
+                        <a href="#">
+                          <img src="img/product-03.jpg" alt="" class="main-img">
+                          <img src="img/product-03-back.jpg" alt="" class="alternate-img">
+                        </a>
+                      </div>
+                      <div class="product-card-countdown">
+                        <div class="countdown" data-date="2024-05-12" data-time="15:25:10">
+                          <div class="day"><span class="num"></span><span class="word">days</span></div>
+                          <div class="hour"><span class="num"></span><span class="word">hours</span></div>
+                          <div class="min"><span class="num"></span><span class="word">mins</span></div>
+                          <div class="sec"><span class="num"></span><span class="word">secs</span></div>
+                        </div>
+                      </div>
+                      <div class="product-quick-btn">
+                        <a href="#" class="product-quick-cart">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                          <span>select options</span>
+                        </a>
+                        <a href="#" class="product-quick-view">
+                          <i class="fa-regular fa-eye"></i>
+                          <span>Quick View</span>
+                        </a>
+                      </div>
+                      <div class="product-actions">
+                        <a href="#" class="product-whishlist">
+                          <span>Add to whishlist</span>
+                          <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#" class="product-compare">
+                          <span>Add to compare</span>
+                          <i class="fa-solid fa-layer-group"></i>
+                        </a>
+                      </div>
+                      <div class="product-sale-badge">
+                        <span>sale</span>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-content">
+                      <div class="product-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="product-title">
+                        <a href="#">Abstract Shirt</a>
+                      </div>
+                      <div class="product-price">
+                        <div class="product-sale-price">
+                          <span class="regular-price">Rs. 2,200.00</span>
+                          <span class="sale-price">Rs. 1,500.00</span>
+                        </div>
+                        <div class="product-regular-price">
+                          <span>Rs. 1,500.00</span>
+                        </div>
+                      </div>
+                      <div class="product-color-swatches">
+                        <button class="color-swatches-btn selected">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-hover"></div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="categories-product-card">
+                    <div class="categories-product-card-img-box">
+                      <div class="product-card-img">
+                        <a href="#">
+                          <img src="img/product-04.jpg" alt="" class="main-img">
+                          <img src="img/product-04-back.jpg" alt="" class="alternate-img">
+                        </a>
+                      </div>
+                      <div class="product-quick-btn">
+                        <a href="#" class="product-quick-cart">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                          <span>select options</span>
+                        </a>
+                        <a href="#" class="product-quick-view">
+                          <i class="fa-regular fa-eye"></i>
+                          <span>Quick View</span>
+                        </a>
+                      </div>
+                      <div class="product-actions">
+                        <a href="#" class="product-whishlist">
+                          <span>Add to whishlist</span>
+                          <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#" class="product-compare">
+                          <span>Add to compare</span>
+                          <i class="fa-solid fa-layer-group"></i>
+                        </a>
+                      </div>
+                      <div class="product-sale-badge">
+                        <span>sale</span>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-content">
+                      <div class="product-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="product-title">
+                        <a href="#">Abstract Shirt</a>
+                      </div>
+                      <div class="product-price">
+                        <div class="product-sale-price">
+                          <span class="regular-price">Rs. 2,200.00</span>
+                          <span class="sale-price">Rs. 1,500.00</span>
+                        </div>
+                        <div class="product-regular-price">
+                          <span>Rs. 1,500.00</span>
+                        </div>
+                      </div>
+                      <div class="product-color-swatches">
+                        <button class="color-swatches-btn selected">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-hover"></div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="categories-product-card">
+                    <div class="categories-product-card-img-box">
+                      <div class="product-card-img">
+                        <a href="#">
+                          <img src="img/product-05.jpg" alt="" class="main-img">
+                          <img src="img/product-05-back.jpg" alt="" class="alternate-img">
+                        </a>
+                      </div>
+                      <div class="product-quick-btn">
+                        <a href="#" class="product-quick-cart">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                          <span>select options</span>
+                        </a>
+                        <a href="#" class="product-quick-view">
+                          <i class="fa-regular fa-eye"></i>
+                          <span>Quick View</span>
+                        </a>
+                      </div>
+                      <div class="product-actions">
+                        <a href="#" class="product-whishlist">
+                          <span>Add to whishlist</span>
+                          <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#" class="product-compare">
+                          <span>Add to compare</span>
+                          <i class="fa-solid fa-layer-group"></i>
+                        </a>
+                      </div>
+                      <div class="product-sale-badge">
+                        <span>sale</span>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-content">
+                      <div class="product-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="product-title">
+                        <a href="#">Abstract Shirt</a>
+                      </div>
+                      <div class="product-price">
+                        <div class="product-sale-price">
+                          <span class="regular-price">Rs. 2,200.00</span>
+                          <span class="sale-price">Rs. 1,500.00</span>
+                        </div>
+                        <div class="product-regular-price">
+                          <span>Rs. 1,500.00</span>
+                        </div>
+                      </div>
+                      <div class="product-color-swatches">
+                        <button class="color-swatches-btn selected">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-hover"></div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="categories-product-card">
+                    <div class="categories-product-card-img-box">
+                      <div class="product-card-img">
+                        <a href="#">
+                          <img src="img/product-05.jpg" alt="" class="main-img">
+                          <img src="img/product-05-back.jpg" alt="" class="alternate-img">
+                        </a>
+                      </div>
+                      <div class="product-quick-btn">
+                        <a href="#" class="product-quick-cart">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                          <span>select options</span>
+                        </a>
+                        <a href="#" class="product-quick-view">
+                          <i class="fa-regular fa-eye"></i>
+                          <span>Quick View</span>
+                        </a>
+                      </div>
+                      <div class="product-actions">
+                        <a href="#" class="product-whishlist">
+                          <span>Add to whishlist</span>
+                          <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#" class="product-compare">
+                          <span>Add to compare</span>
+                          <i class="fa-solid fa-layer-group"></i>
+                        </a>
+                      </div>
+                      <div class="product-sale-badge">
+                        <span>sale</span>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-content">
+                      <div class="product-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="product-title">
+                        <a href="#">Abstract Shirt</a>
+                      </div>
+                      <div class="product-price">
+                        <div class="product-sale-price">
+                          <span class="regular-price">Rs. 2,200.00</span>
+                          <span class="sale-price">Rs. 1,500.00</span>
+                        </div>
+                        <div class="product-regular-price">
+                          <span>Rs. 1,500.00</span>
+                        </div>
+                      </div>
+                      <div class="product-color-swatches">
+                        <button class="color-swatches-btn selected">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-hover"></div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="categories-product-card">
+                    <div class="categories-product-card-img-box">
+                      <div class="product-card-img">
+                        <a href="#">
+                          <img src="img/product-04.jpg" alt="" class="main-img">
+                          <img src="img/product-04-back.jpg" alt="" class="alternate-img">
+                        </a>
+                      </div>
+                      <div class="product-card-countdown">
+                        <div class="countdown" data-date="2024-05-23" data-time="18:32:05">
+                          <div class="day"><span class="num"></span><span class="word">days</span></div>
+                          <div class="hour"><span class="num"></span><span class="word">hours</span></div>
+                          <div class="min"><span class="num"></span><span class="word">mins</span></div>
+                          <div class="sec"><span class="num"></span><span class="word">secs</span></div>
+                        </div>
+                      </div>
+                      <div class="product-quick-btn">
+                        <a href="#" class="product-quick-cart">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                          <span>select options</span>
+                        </a>
+                        <a href="#" class="product-quick-view">
+                          <i class="fa-regular fa-eye"></i>
+                          <span>Quick View</span>
+                        </a>
+                      </div>
+                      <div class="product-actions">
+                        <a href="#" class="product-whishlist">
+                          <span>Add to whishlist</span>
+                          <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#" class="product-compare">
+                          <span>Add to compare</span>
+                          <i class="fa-solid fa-layer-group"></i>
+                        </a>
+                      </div>
+                      <div class="product-sale-badge">
+                        <span>sale</span>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-content">
+                      <div class="product-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="product-title">
+                        <a href="#">Abstract Shirt</a>
+                      </div>
+                      <div class="product-price">
+                        <div class="product-sale-price">
+                          <span class="regular-price">Rs. 2,200.00</span>
+                          <span class="sale-price">Rs. 1,500.00</span>
+                        </div>
+                        <div class="product-regular-price">
+                          <span>Rs. 1,500.00</span>
+                        </div>
+                      </div>
+                      <div class="product-color-swatches">
+                        <button class="color-swatches-btn selected">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-hover"></div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="categories-product-card">
+                    <div class="categories-product-card-img-box">
+                      <div class="product-card-img">
+                        <a href="#">
+                          <img src="img/product-03.jpg" alt="" class="main-img">
+                          <img src="img/product-03-back.jpg" alt="" class="alternate-img">
+                        </a>
+                      </div>
+                      <div class="product-quick-btn">
+                        <a href="#" class="product-quick-cart">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                          <span>select options</span>
+                        </a>
+                        <a href="#" class="product-quick-view">
+                          <i class="fa-regular fa-eye"></i>
+                          <span>Quick View</span>
+                        </a>
+                      </div>
+                      <div class="product-actions">
+                        <a href="#" class="product-whishlist">
+                          <span>Add to whishlist</span>
+                          <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#" class="product-compare">
+                          <span>Add to compare</span>
+                          <i class="fa-solid fa-layer-group"></i>
+                        </a>
+                      </div>
+                      <div class="product-sale-badge">
+                        <span>sale</span>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-content">
+                      <div class="product-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="product-title">
+                        <a href="#">Abstract Shirt</a>
+                      </div>
+                      <div class="product-price">
+                        <div class="product-sale-price">
+                          <span class="regular-price">Rs. 2,200.00</span>
+                          <span class="sale-price">Rs. 1,500.00</span>
+                        </div>
+                        <div class="product-regular-price">
+                          <span>Rs. 1,500.00</span>
+                        </div>
+                      </div>
+                      <div class="product-color-swatches">
+                        <button class="color-swatches-btn selected">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-hover"></div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="categories-product-card">
+                    <div class="categories-product-card-img-box">
+                      <div class="product-card-img">
+                        <a href="#">
+                          <img src="img/product-02.jpg" alt="" class="main-img">
+                          <img src="img/product-02-back.jpg" alt="" class="alternate-img">
+                        </a>
+                      </div>
+                      <div class="product-quick-btn">
+                        <a href="#" class="product-quick-cart">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                          <span>select options</span>
+                        </a>
+                        <a href="#" class="product-quick-view">
+                          <i class="fa-regular fa-eye"></i>
+                          <span>Quick View</span>
+                        </a>
+                      </div>
+                      <div class="product-actions">
+                        <a href="#" class="product-whishlist">
+                          <span>Add to whishlist</span>
+                          <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#" class="product-compare">
+                          <span>Add to compare</span>
+                          <i class="fa-solid fa-layer-group"></i>
+                        </a>
+                      </div>
+                      <div class="product-sale-badge">
+                        <span>sale</span>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-content">
+                      <div class="product-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="product-title">
+                        <a href="#">Abstract Shirt</a>
+                      </div>
+                      <div class="product-price">
+                        <div class="product-sale-price">
+                          <span class="regular-price">Rs. 2,200.00</span>
+                          <span class="sale-price">Rs. 1,500.00</span>
+                        </div>
+                        <div class="product-regular-price">
+                          <span>Rs. 1,500.00</span>
+                        </div>
+                      </div>
+                      <div class="product-color-swatches">
+                        <button class="color-swatches-btn selected">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-hover"></div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="categories-product-card">
+                    <div class="categories-product-card-img-box">
+                      <div class="product-card-img">
+                        <a href="#">
+                          <img src="img/product-01.jpg" alt="" class="main-img">
+                          <img src="img/product-01-back.jpg" alt="" class="alternate-img">
+                        </a>
+                      </div>
+                      <div class="product-quick-btn">
+                        <a href="#" class="product-quick-cart">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                          <span>select options</span>
+                        </a>
+                        <a href="#" class="product-quick-view">
+                          <i class="fa-regular fa-eye"></i>
+                          <span>Quick View</span>
+                        </a>
+                      </div>
+                      <div class="product-actions">
+                        <a href="#" class="product-whishlist">
+                          <span>Add to whishlist</span>
+                          <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#" class="product-compare">
+                          <span>Add to compare</span>
+                          <i class="fa-solid fa-layer-group"></i>
+                        </a>
+                      </div>
+                      <div class="product-sale-badge">
+                        <span>sale</span>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-content">
+                      <div class="product-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="product-title">
+                        <a href="#">Abstract Shirt</a>
+                      </div>
+                      <div class="product-price">
+                        <div class="product-sale-price">
+                          <span class="regular-price">Rs. 2,200.00</span>
+                          <span class="sale-price">Rs. 1,500.00</span>
+                        </div>
+                        <div class="product-regular-price">
+                          <span>Rs. 1,500.00</span>
+                        </div>
+                      </div>
+                      <div class="product-color-swatches">
+                        <button class="color-swatches-btn selected">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                        <button class="color-swatches-btn">
+                          <label class="color-filter"><span class="color-bg"></span></label>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="categories-product-card-hover"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="offer-sec common-sec pt-0">
+        <div class="offer-sec-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="offer-sec-img">
+                  <img src="img/offer-sec-img.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="offer-sec-content">
+                  <div class="sec-head">
+                    <p class="sec-md-title">APPLY CODE: FASHIONWEEK</p>
+                    <h2 class="offer-title">FLAT 20% OFF EVERYTHING</h2>
+                  </div>
+                  <div class="offer-countdown">
+                    <div class="countdown" data-date="2024-05-28" data-time="09:00">
+                      <div class="day"><span class="num daynum"></span><span class="word">day</span></div>
+                      <div class="hour"><span class="num hournum"></span><span class="word">hours</span></div>
+                      <div class="min"><span class="num minnum"></span><span class="word">minutes</span></div>
+                      <div class="sec"><span class="num secnum"></span><span class="word">seconds</span></div>
+                    </div>
+                  </div>
+                  <div class="offer-btn">
+                    <a href="#" class="btn">Buy Collection</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonial-sec common-sec pt-0">
+        <div class="testimonial-sec-main">
+          <div class="container">
+            <div class="testimonial-sec-wrap">
+              <div class="sec-head">
+                <h2 class="sec-title">Happy customer words</h2>
+              </div>
+              <div class="testimonial-slider-wrap">
+                <div class="testimonial-slider">
+                  <div class="testimonial-slide">
+                    <div class="testimonial-slide-content">
+                      <div class="star-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="testimonial-des">
+                        <p>Look at the stars lighting up the sky: no one of them stays in the same place.</p>
+                      </div>
+                      <div class="testimonial-person-name">
+                        <h5>Jonsan Donner</h5>
+                      </div>
+                      <div class="testimonial-person-designation">
+                        <p>Design manager</p>
+                      </div>
+                    </div>
+                    <div class="testimonial-product-box">
+                      <a href="#">
+                        <div class="testimonial-product-img">
+                          <img src="img/testimonial-product-01.jpg" alt="">
+                        </div>
+                        <div class="testimonial-product-name">
+                          <p>Speaker with lamp</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="testimonial-slide">
+                    <div class="testimonial-slide-content">
+                      <div class="star-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="testimonial-des">
+                        <p>Look at the stars lighting up the sky: no one of them stays in the same place.</p>
+                      </div>
+                      <div class="testimonial-person-name">
+                        <h5>Jonsan Donner</h5>
+                      </div>
+                      <div class="testimonial-person-designation">
+                        <p>Design manager</p>
+                      </div>
+                    </div>
+                    <div class="testimonial-product-box">
+                      <a href="#">
+                        <div class="testimonial-product-img">
+                          <img src="img/testimonial-product-02.jpg" alt="">
+                        </div>
+                        <div class="testimonial-product-name">
+                          <p>Speaker with lamp</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="testimonial-slide">
+                    <div class="testimonial-slide-content">
+                      <div class="star-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="testimonial-des">
+                        <p>Look at the stars lighting up the sky: no one of them stays in the same place.</p>
+                      </div>
+                      <div class="testimonial-person-name">
+                        <h5>Jonsan Donner</h5>
+                      </div>
+                      <div class="testimonial-person-designation">
+                        <p>Design manager</p>
+                      </div>
+                    </div>
+                    <div class="testimonial-product-box">
+                      <a href="#">
+                        <div class="testimonial-product-img">
+                          <img src="img/testimonial-product-03.jpg" alt="">
+                        </div>
+                        <div class="testimonial-product-name">
+                          <p>Speaker with lamp</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="testimonial-slide">
+                    <div class="testimonial-slide-content">
+                      <div class="star-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="testimonial-des">
+                        <p>Look at the stars lighting up the sky: no one of them stays in the same place.</p>
+                      </div>
+                      <div class="testimonial-person-name">
+                        <h5>Jonsan Donner</h5>
+                      </div>
+                      <div class="testimonial-person-designation">
+                        <p>Design manager</p>
+                      </div>
+                    </div>
+                    <div class="testimonial-product-box">
+                      <a href="#">
+                        <div class="testimonial-product-img">
+                          <img src="img/testimonial-product-01.jpg" alt="">
+                        </div>
+                        <div class="testimonial-product-name">
+                          <p>Speaker with lamp</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="testimonial-slide">
+                    <div class="testimonial-slide-content">
+                      <div class="star-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="testimonial-des">
+                        <p>Look at the stars lighting up the sky: no one of them stays in the same place.</p>
+                      </div>
+                      <div class="testimonial-person-name">
+                        <h5>Jonsan Donner</h5>
+                      </div>
+                      <div class="testimonial-person-designation">
+                        <p>Design manager</p>
+                      </div>
+                    </div>
+                    <div class="testimonial-product-box">
+                      <a href="#">
+                        <div class="testimonial-product-img">
+                          <img src="img/testimonial-product-02.jpg" alt="">
+                        </div>
+                        <div class="testimonial-product-name">
+                          <p>Speaker with lamp</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="testimonial-slide">
+                    <div class="testimonial-slide-content">
+                      <div class="star-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="testimonial-des">
+                        <p>Look at the stars lighting up the sky: no one of them stays in the same place.</p>
+                      </div>
+                      <div class="testimonial-person-name">
+                        <h5>Jonsan Donner</h5>
+                      </div>
+                      <div class="testimonial-person-designation">
+                        <p>Design manager</p>
+                      </div>
+                    </div>
+                    <div class="testimonial-product-box">
+                      <a href="#">
+                        <div class="testimonial-product-img">
+                          <img src="img/testimonial-product-03.jpg" alt="">
+                        </div>
+                        <div class="testimonial-product-name">
+                          <p>Speaker with lamp</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-fancy-text">
+                <h2>customer review</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog-sec common-sec pt-0">
+        <div class="blog-sec-wrap">
+          <div class="container">
+            <div class="sec-head">
+              <p class="sec-md-title">ARTICLE LIBRARY</p>
+              <h2 class="sec-title">Latest blog</h2>
+            </div>
+            <div class="blog-cards">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+                <div class="col">
+                  <div class="blog-card">
+                    <a href="#">
+                      <div class="blog-img-wrap">
+                        <div class="blog-img">
+                          <img src="img/blog-1.jpg" alt="">
+                        </div>
+                        <div class="blog-badge">
+                          <p>Decor</p>
+                        </div>
+                      </div>
+                      <div class="blog-content">
+                        <h4 class="blog-title">Have no fear of perfection you will never reach it</h4>
+                        <p class="blog-publisher">By Alexie Rechards</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="blog-card">
+                    <a href="#">
+                      <div class="blog-img-wrap">
+                        <div class="blog-img">
+                          <img src="img/blog-2.jpg" alt="">
+                        </div>
+                        <div class="blog-badge">
+                          <p>Decor</p>
+                        </div>
+                      </div>
+                      <div class="blog-content">
+                        <h4 class="blog-title">Have no fear of perfection you will never reach it</h4>
+                        <p class="blog-publisher">By Alexie Rechards</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="blog-card">
+                    <a href="#">
+                      <div class="blog-img-wrap">
+                        <div class="blog-img">
+                          <img src="img/blog-3.jpg" alt="">
+                        </div>
+                        <div class="blog-badge">
+                          <p>Decor</p>
+                        </div>
+                      </div>
+                      <div class="blog-content">
+                        <h4 class="blog-title">Have no fear of perfection you will never reach it</h4>
+                        <p class="blog-publisher">By Alexie Rechards</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="blog-card">
+                    <a href="#">
+                      <div class="blog-img-wrap">
+                        <div class="blog-img">
+                          <img src="img/blog-4.jpg" alt="">
+                        </div>
+                        <div class="blog-badge">
+                          <p>Decor</p>
+                        </div>
+                      </div>
+                      <div class="blog-content">
+                        <h4 class="blog-title">Have no fear of perfection you will never reach it</h4>
+                        <p class="blog-publisher">By Alexie Rechards</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="newsletter-sec common-sec pt-0">
+        <div class="newsletter-sec-wrap">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-10 col-xl-8 text-center">
+                <div class="sec-head">
+                  <h2 class="sec-title">Subscribe to get 30% discount!</h2>
+                </div>
+                <div class="newsletter-form">
+                  <form method="post" action="">
+                    <div class="input-group">
+                      <input type="email" name="" id="" class="email" autocomplete="email" autocorrect="off"
+                        autocapitalize="off" placeholder="Enter your email..." required>
+                      <button type="submit" class="newsletter-btn"><i
+                          class="fa-regular fa-envelope"></i>Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
-  <!-- home banner slider end  -->
-  
-<script>
-      $('.home-banner-slider').slick({
-          dots: true,
-          infinite: true,
-          speed: 300,
-          slidesToShow: 1,
-          slidesToScroll: 1, 
-        });
-  </script>
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- <script type="text/javascript" src="js/countdown.js"></script>
+  <script type="text/javascript" src="js/init.js"></script> -->
 </body>
+
 </html>
