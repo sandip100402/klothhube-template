@@ -1,21 +1,610 @@
-@media only screen and (max-width:1666px) {}
+@media only screen and (max-width: 1666px) {}
 
-@media only screen and (max-width:1599px) {}
+@media only screen and (max-width: 1599px) {}
 
-@media only screen and (max-width:1366px) {}
+@media only screen and (max-width: 1366px) {
+    .decor-collection-card-con {
+        bottom: 15px;
+        left: 15px;
+        width: calc(100% - 30px);
+        flex-wrap: nowrap;
+        padding: 12px 15px;
+    }
 
-@media only screen and (max-width:1280px) {}
+    .decor-collection-card-con-right p {
+        line-height: 1.2;
+    }
 
-@media only screen and (max-width:1199px) {}
+    .offer-title {
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
 
-@media only screen and (max-width:991px) {}
+    .offer-sec-content .sec-head .sec-md-title {
+        font-size: 16px;
+    }
 
-@media only screen and (max-width:767px) {}
+    .offer-countdown .countdown .day .num,
+    .offer-countdown .countdown .hour .num,
+    .offer-countdown .countdown .min .num,
+    .offer-countdown .countdown .sec .num {
+        font-size: 36px;
+    }
 
-@media only screen and (max-width:568px) {}
+    .offer-btn {
+        margin-top: 25px;
+    }
+}
 
-@media only screen and (max-width:489px) {}
+@media only screen and (max-width: 1280px) {
+    .hero-banner-content-main {
+        width: 70%;
+    }
+}
 
-@media only screen and (max-width:390px) {}
+@media only screen and (max-width: 1199px) {
+    .sec-head {
+        margin-bottom: 40px;
+    }
 
-@media only screen and (max-width:350px) {}
+    .sec-title {
+        font-size: 36px;
+    }
+
+    .sec-md-title {
+        font-size: 12px;
+    }
+
+    .decor-collection-wrap .sec-head {
+        margin-bottom: 40px;
+    }
+
+    .common-sec {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .banner-title h2 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .btn {
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+
+    .slick-arrow {
+        width: 50px;
+        height: 50px;
+    }
+
+    .decor-collection-cards-main .collection-item:nth-child(2n) .decor-collection-cards-card {
+        height: 100%;
+        position: relative;
+    }
+
+    .decor-collection-cards-card,
+    .decor-collection-card-wrap {
+        width: 100%;
+    }
+
+    .offer-title {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+
+    .offer-sec-content .sec-head .sec-md-title {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .offer-countdown .countdown .day .num,
+    .offer-countdown .countdown .hour .num,
+    .offer-countdown .countdown .min .num,
+    .offer-countdown .countdown .sec .num {
+        font-size: 32px;
+    }
+
+    .offer-countdown .countdown .day .word,
+    .offer-countdown .countdown .hour .word,
+    .offer-countdown .countdown .min .word,
+    .offer-countdown .countdown .sec .word {
+        font-size: 13px;
+    }
+
+    .offer-btn {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .hero-banner-sec-slider .slick-slide {
+        height: 100%;
+    }
+
+    .hero-banner-sec-slider .slick-track {
+        height: 600px;
+    }
+
+    .product-quick-btn {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        border: 1px solid rgba(0, 0, 0, .1);
+        transform: none;
+        transition: none;
+        flex-direction: inherit;
+        animation: inherit;
+    }
+
+    .product-card-countdown {
+        bottom: 65px;
+    }
+
+    .categories-product-card:hover .product-card-countdown {
+        bottom: 65px;
+        opacity: 1;
+    }
+
+    .product-quick-btn a {
+        background-color: #fff;
+        color: #262626;
+        border-right: 1px solid rgba(0, 0, 0, .1);
+    }
+
+    .product-quick-btn a i {
+        color: #262626;
+    }
+
+    .product-actions {
+        opacity: 1;
+        visibility: visible;
+        right: 17px;
+    }
+
+    .product-actions span {
+        display: none;
+    }
+
+    .testimonial-fancy-text h2 {
+        font-size: 110px;
+        line-height: 110px;
+        letter-spacing: -2px;
+        margin-bottom: -30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .sec-md-title {
+        font-size: 11px;
+    }
+
+    .sec-title {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    .decor-collection-wrap .sec-head {
+        margin-bottom: 30px;
+    }
+
+    .sec-head {
+        margin-bottom: 30px;
+    }
+
+    .hero-banner-content-main {
+        width: 72%;
+    }
+
+    .banner-title h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .hero-banner-content {
+        width: 65%;
+    }
+
+    .btn {
+        padding: 14px 34px !important;
+    }
+
+    .product-card-countdown .countdown .day,
+    .product-card-countdown .countdown .hour,
+    .product-card-countdown .countdown .min,
+    .product-card-countdown .countdown .sec {
+        padding: 8px 12px;
+    }
+
+    .product-card-countdown .countdown .day .num,
+    .product-card-countdown .countdown .hour .num,
+    .product-card-countdown .countdown .min .num,
+    .product-card-countdown .countdown .sec .num {
+        font-size: 16px;
+    }
+
+    .product-card-countdown .countdown .day .word,
+    .product-card-countdown .countdown .hour .word,
+    .product-card-countdown .countdown .min .word,
+    .product-card-countdown .countdown .sec .word {
+        font-size: 9px;
+    }
+
+    .product-card-countdown {
+        bottom: 50px;
+    }
+
+    .product-title a {
+        font-size: 16px;
+    }
+
+    .product-rating i {
+        font-size: 13px;
+    }
+
+    .product-price span {
+        font-size: 14px;
+    }
+
+    .product-color-swatches .color-swatches-btn .color-bg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .product-color-swatches .color-swatches-btn .color-bg::after {
+        width: 14px;
+        height: 14px;
+    }
+
+    .product-quick-btn a {
+        font-size: 14px;
+        height: 36px;
+        padding: 10px 0;
+    }
+
+    .product-quick-btn a span {
+        font-size: 11px;
+    }
+
+    .offer-title {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .offer-sec-content .sec-head .sec-md-title {
+        font-size: 12px;
+        margin-bottom: 13px;
+    }
+
+    .offer-countdown .countdown .day .num,
+    .offer-countdown .countdown .hour .num,
+    .offer-countdown .countdown .min .num,
+    .offer-countdown .countdown .sec .num {
+        font-size: 28px;
+    }
+
+    .offer-countdown .countdown .day .word,
+    .offer-countdown .countdown .hour .word,
+    .offer-countdown .countdown .min .word,
+    .offer-countdown .countdown .sec .word {
+        font-size: 12px;
+    }
+
+    .offer-btn {
+        margin-top: 13px;
+    }
+
+    .testimonial-slider-wrap .slick-next {
+        right: 50px;
+    }
+
+    .testimonial-slider-wrap .slick-prev {
+        right: 90px;
+    }
+
+    .testimonial-fancy-text h2 {
+        margin-bottom: -30px;
+        font-size: 110px;
+        line-height: 110px;
+        letter-spacing: -4px;
+    }
+
+    .testimonial-slide-content {
+        padding: 25px;
+    }
+
+    .testimonial-product-name {
+        padding: 0 13px 18px;
+    }
+
+    .testimonial-sec-wrap .sec-head .sec-title {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-slider-wrap .slick-arrow {
+        top: -22px;
+    }
+
+    .testimonial-fancy-text {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .desktop-img {
+        display: none !important;
+    }
+
+    .mobile-img {
+        display: block !important;
+    }
+
+    .sec-title {
+        font-size: 28px;
+    }
+
+    .sec-md-title {
+        font-size: 10px;
+    }
+
+    .sec-head {
+        margin-bottom: 25px;
+    }
+
+    .row {
+        --bs-gutter-x: 1rem !important;
+        --bs-gutter-y: 1rem !important;
+    }
+
+    .common-sec {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .decor-collection-wrap .sec-head {
+        margin-bottom: 25px;
+    }
+
+    .banner-content-img img {
+        display: none !important;
+    }
+
+    .hero-banner-sec-slider .slick-track {
+        height: 400px;
+    }
+
+    .banner-title h2 {
+        font-size: 42px;
+        line-height: 42px;
+        letter-spacing: 0;
+    }
+
+    .hero-banner-content-main {
+        width: 100%;
+    }
+
+    .hero-banner-content {
+        width: 100%;
+    }
+
+    .slick-arrow {
+        display: none !important;
+    }
+
+    .banner-sub-title p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 25px;
+    }
+
+    .btn {
+        padding: 12px 30px !important;
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+
+    .product-quick-btn a {
+        font-size: 13px;
+        height: 32px;
+        padding: 9px 0;
+    }
+
+    .product-price span {
+        display: inline-block;
+    }
+
+    .offer-title {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .offer-sec-content .sec-head .sec-md-title {
+        font-size: 13px;
+        margin-bottom: 18px;
+    }
+
+    .testimonial-sec-main .container {
+        padding: 0 !important;
+    }
+
+    .testimonial-sec-wrap {
+        padding-top: 40px;
+    }
+
+    .testimonial-slider-wrap .slick-list {
+        padding-top: 0 !important;
+        padding-bottom: 25px !important;
+    }
+
+    .testimonial-sec-wrap .sec-head .sec-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .testimonial-sec-wrap .sec-head {
+        width: 100%;
+    }
+
+    .testimonial-fancy-text h2 {
+        font-size: 75px;
+        line-height: 90px;
+        margin-bottom: -25px;
+        letter-spacing: -4px;
+    }
+
+    .testimonial-slide {
+        flex-direction: column;
+    }
+
+    .testimonial-slide-content {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .testimonial-product-box {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .testimonial-product-name {
+        position: static;
+        padding: 10px 10px 0 10px;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .decor-collection-card-con {
+        bottom: 7px;
+        left: 7px;
+        width: calc(100% - 15px);
+        padding: 10px;
+    }
+
+    .decor-collection-card-con-left p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .decor-collection-card-con-right p {
+        font-size: 10px;
+    }
+
+    .product-card-countdown .countdown .day,
+    .product-card-countdown .countdown .hour,
+    .product-card-countdown .countdown .min,
+    .product-card-countdown .countdown .sec {
+        padding: 6px 8px;
+    }
+
+    .product-card-countdown .countdown .day .num,
+    .product-card-countdown .countdown .hour .num,
+    .product-card-countdown .countdown .min .num,
+    .product-card-countdown .countdown .sec .num {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .product-card-countdown .countdown .day .word,
+    .product-card-countdown .countdown .hour .word,
+    .product-card-countdown .countdown .min .word,
+    .product-card-countdown .countdown .sec .word {
+        font-size: 8px;
+    }
+
+    .product-card-countdown .countdown .day::after,
+    .product-card-countdown .countdown .hour::after,
+    .product-card-countdown .countdown .min::after {
+        font-size: 22px;
+        right: -4px;
+    }
+
+    .product-card-countdown {
+        width: calc(100% - 15px);
+    }
+
+    .product-title a {
+        font-size: 15px;
+    }
+
+    .categories-product-card-content {
+        padding: 15px 10px 10px;
+    }
+
+    .product-price span {
+        font-size: 13px;
+    }
+
+    .product-color-swatches .color-swatches-btn .color-bg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .product-color-swatches .color-swatches-btn .color-bg::after {
+        width: 12px;
+        height: 12px;
+    }
+
+    .product-card-countdown {
+        bottom: 45px;
+    }
+
+    .product-sale-badge span {
+        font-size: 9px;
+        min-width: 40px;
+    }
+
+    .product-sale-badge {
+        top: 10px;
+        left: 10px;
+    }
+
+    .offer-sec-content .sec-head .sec-md-title {
+        font-size: 11px;
+        margin-bottom: 12px;
+    }
+
+    .offer-countdown .countdown .day .num,
+    .offer-countdown .countdown .hour .num,
+    .offer-countdown .countdown .min .num,
+    .offer-countdown .countdown .sec .num {
+        font-size: 24px;
+    }
+
+    .offer-countdown .countdown .day .word,
+    .offer-countdown .countdown .hour .word,
+    .offer-countdown .countdown .min .word,
+    .offer-countdown .countdown .sec .word {
+        font-size: 11px;
+    }
+
+    .offer-countdown .countdown .day,
+    .offer-countdown .countdown .hour,
+    .offer-countdown .countdown .min,
+    .offer-countdown .countdown .sec {
+        padding: 12px 15px;
+    }
+
+    .product-actions i {
+        padding: 8px;
+        font-size: 11px;
+    }
+
+    .product-actions {
+        top: 10px;
+        right: 10px;
+        gap: 6px;
+    }
+}
+
+@media only screen and (max-width: 489px) {}
+
+@media only screen and (max-width: 390px) {}
+
+@media only screen and (max-width: 350px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .hero-banner-content-main {
+        width: 70%;
+    }
+}
