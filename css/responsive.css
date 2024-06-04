@@ -166,6 +166,13 @@
     .product-actions span {
         display: none;
     }
+
+    .testimonial-fancy-text h2 {
+        font-size: 110px;
+        line-height: 110px;
+        letter-spacing: -2px;
+        margin-bottom: -30px;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -287,6 +294,41 @@
     .offer-btn {
         margin-top: 13px;
     }
+
+    .testimonial-slider-wrap .slick-next {
+        right: 50px;
+    }
+
+    .testimonial-slider-wrap .slick-prev {
+        right: 90px;
+    }
+
+    .testimonial-fancy-text h2 {
+        margin-bottom: -30px;
+        font-size: 110px;
+        line-height: 110px;
+        letter-spacing: -4px;
+    }
+
+    .testimonial-slide-content {
+        padding: 25px;
+    }
+
+    .testimonial-product-name {
+        padding: 0 13px 18px;
+    }
+
+    .testimonial-sec-wrap .sec-head .sec-title {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-slider-wrap .slick-arrow {
+        top: -22px;
+    }
+
+    .testimonial-fancy-text {
+        padding-top: 10px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -374,11 +416,60 @@
 
     .offer-title {
         font-size: 36px;
+        line-height: 1.2;
     }
 
     .offer-sec-content .sec-head .sec-md-title {
         font-size: 13px;
         margin-bottom: 18px;
+    }
+
+    .testimonial-sec-main .container {
+        padding: 0 !important;
+    }
+
+    .testimonial-sec-wrap {
+        padding-top: 40px;
+    }
+
+    .testimonial-slider-wrap .slick-list {
+        padding-top: 0 !important;
+        padding-bottom: 25px !important;
+    }
+
+    .testimonial-sec-wrap .sec-head .sec-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .testimonial-sec-wrap .sec-head {
+        width: 100%;
+    }
+
+    .testimonial-fancy-text h2 {
+        font-size: 75px;
+        line-height: 90px;
+        margin-bottom: -25px;
+        letter-spacing: -4px;
+    }
+
+    .testimonial-slide {
+        flex-direction: column;
+    }
+
+    .testimonial-slide-content {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .testimonial-product-box {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .testimonial-product-name {
+        position: static;
+        padding: 10px 10px 0 10px;
     }
 }
 
